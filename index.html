@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Tagging Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Top header with brand, search and contact info -->
+    <header class="top-header">
+        <div class="container top-bar">
+            <div class="brand">
+                <span>Equipment Tagging Solutions</span>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search products...">
+            </div>
+            <div class="header-contact-info">
+                <span class="phone">+1&nbsp;(868)&nbsp;123‑4567</span><br>
+                <span class="email">info@equipmenttaggingsolutions.com</span>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="stock.html">Stock Tags</a></li>
+                <li><a href="customize.html">Custom Tags</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Blog</a></li>
+                <li class="cart-link"><a href="#" id="cart-button">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+        <nav class="sub-nav">
+            <ul>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Tags by Material</a></li>
+                <li><a href="#">Tags by Shape</a></li>
+                <li><a href="#">Tags by Type</a></li>
+                <li><a href="#">Labels by Type</a></li>
+                <li><a href="#">Plates by Type</a></li>
+                <li><a href="#">Stock Shapes &amp; Sizes</a></li>
+                <li><a href="#">Custom Shapes &amp; Sizes</a></li>
+                <li><a href="#">Jewelry</a></li>
+                <li><a href="#">Hardware &amp; Accessories</a></li>
+                <li><a href="#">Filter All Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Categories section replicating the grid of categories -->
+        <section class="categories">
+            <div class="container">
+                <h2>Shop by Category</h2>
+                <div class="categories-grid">
+                    <a href="stock.html" class="category-card">
+                        <div class="category-image" style="background-color:#e0f2f1;">
+                            <svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="10" y="10" width="80" height="60" fill="#00796b" />
+                            </svg>
+                        </div>
+                        <h4>Metal Tags</h4>
+                    </a>
+                    <a href="stock.html" class="category-card">
+                        <div class="category-image" style="background-color:#fce4ec;">
+                            <svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="35" fill="#c2185b" />
+                            </svg>
+                        </div>
+                        <h4>Metal Labels</h4>
+                    </a>
+                    <a href="customize.html" class="category-card">
+                        <div class="category-image" style="background-color:#e8f5e9;">
+                            <svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="50,10 61,35 85,35 66,50 71,72 50,60 29,72 34,50 15,35 39,35" fill="#2e7d32" />
+                            </svg>
+                        </div>
+                        <h4>Custom Sizes</h4>
+                    </a>
+                    <a href="stock.html" class="category-card">
+                        <div class="category-image" style="background-color:#e3f2fd;">
+                            <svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="50" cy="50" rx="40" ry="25" fill="#1976d2" />
+                            </svg>
+                        </div>
+                        <h4>Stock Sizes</h4>
+                    </a>
+                    <a href="customize.html" class="category-card">
+                        <div class="category-image" style="background-color:#fff3e0;">
+                            <svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="20" y="20" width="60" height="40" fill="#fb8c00" />
+                            </svg>
+                        </div>
+                        <h4>Nameplates</h4>
+                    </a>
+                    <a href="customize.html" class="category-card">
+                        <div class="category-image" style="background-color:#ede7f6;">
+                            <svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="15" y="25" width="70" height="50" fill="#5e35b1" />
+                            </svg>
+                        </div>
+                        <h4>Data Plates</h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Most popular sections replicating product cards -->
+        <section class="popular">
+            <div class="container">
+                <h2>Most Popular: Engraved Tags</h2>
+                <div class="popular-grid">
+                    <div class="product-card">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#00796b" />
+                        </svg>
+                        <h4>Aluminum Round Engraved Tag</h4>
+                        <p class="price">$4.66 – $5.57</p>
+                        <button onclick="location.href='customize.html'">View Product</button>
+                    </div>
+                    <div class="product-card">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="35" fill="#00796b" />
+                        </svg>
+                        <h4>Stainless Steel Round Engraved Tag</h4>
+                        <p class="price">$6.41 – $7.62</p>
+                        <button onclick="location.href='customize.html'">View Product</button>
+                    </div>
+                    <div class="product-card">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="20" y="20" width="60" height="60" fill="#00796b" />
+                        </svg>
+                        <h4>Aluminum Rectangular Engraved Tag</h4>
+                        <p class="price">$4.89 – $6.71</p>
+                        <button onclick="location.href='customize.html'">View Product</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popular">
+            <div class="container">
+                <h2>Most Popular: Blank Tags</h2>
+                <div class="popular-grid">
+                    <div class="product-card">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="30" width="80" height="40" fill="#1976d2" />
+                        </svg>
+                        <h4>Aluminum Dog Bone Shape Blank Tag</h4>
+                        <p class="price">$0.86 – $0.95</p>
+                        <button onclick="location.href='stock.html'">View Product</button>
+                    </div>
+                    <div class="product-card">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#1976d2" />
+                        </svg>
+                        <h4>Stainless Steel Round Blank Tag</h4>
+                        <p class="price">$1.05 – $1.62</p>
+                        <button onclick="location.href='stock.html'">View Product</button>
+                    </div>
+                    <div class="product-card">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="30" width="70" height="40" fill="#1976d2" />
+                        </svg>
+                        <h4>Aluminum Rectangular Two Holes Blank Tag</h4>
+                        <p class="price">$1.22 – $1.43</p>
+                        <button onclick="location.href='stock.html'">View Product</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Equipment Tagging Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Tags – Equipment Tagging Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="top-header">
+        <div class="container top-bar">
+            <div class="brand">
+                <span>Equipment Tagging Solutions</span>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search products...">
+            </div>
+            <div class="header-contact-info">
+                <span class="phone">+1&nbsp;(868)&nbsp;123‑4567</span><br>
+                <span class="email">info@equipmenttaggingsolutions.com</span>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stock.html" class="active">Stock Tags</a></li>
+                <li><a href="customize.html">Custom Tags</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Blog</a></li>
+                <li class="cart-link"><a href="#" id="cart-button">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+        <nav class="sub-nav">
+            <ul>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Tags by Material</a></li>
+                <li><a href="#">Tags by Shape</a></li>
+                <li><a href="#">Tags by Type</a></li>
+                <li><a href="#">Labels by Type</a></li>
+                <li><a href="#">Plates by Type</a></li>
+                <li><a href="#">Stock Shapes &amp; Sizes</a></li>
+                <li><a href="#">Custom Shapes &amp; Sizes</a></li>
+                <li><a href="#">Jewelry</a></li>
+                <li><a href="#">Hardware &amp; Accessories</a></li>
+                <li><a href="#">Filter All Products</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Stock Shaped Tags</h2>
+            <p>Select from our ready‑made tag shapes. Click to add to your cart.</p>
+            <div class="product-grid" id="stock-products">
+                <!-- Products will be inserted here by script.js -->
+            </div>
+        </div>
+    </main>
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <h3>Your Cart</h3>
+            <div id="cart-items"></div>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-price">$0.00</span>
+            </div>
+            <button id="checkout-button">Checkout</button>
+            <button id="close-cart-button" class="secondary-button">Close</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Equipment Tagging Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
